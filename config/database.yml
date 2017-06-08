@@ -1,0 +1,17 @@
+default: &default
+development:
+  adapter: postgresql
+  host: localhost
+  database: danslaughter
+  encoding: UTF8
+
+test:
+  adapter: postgresql
+  host: localhost
+  database: danslaughter        # or whatever the name is
+  encoding: UTF8
+
+production:
+  adapter: postgresql
+  database: danslaughter
+  encoding: UTF8
